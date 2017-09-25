@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+body{
+    background-image: url("../img/fondo-desktop1.jpg");  
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin: auto;
+    border: 5px;
+}
+
+p{
+    text-align: left;
+}
+
+div #mostrar{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+div #lista{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: left;
+}
+
+td{
+    margin: 1%;
+    padding: 1%;
+}
+input, #dni1, #nombre, #apellido, #dni{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}    /* background-size: 100%; */
+
+@media screen and (max-width:415px){
+    body{
+        background-image: none;
+        background-image: url("../img/fondo-mobil1.jpg");
+        width: 100%;
+        margin: 0% !important;
+    }
+
+    input, #dni1, #nombre, #apellido, #dni{
+        width: 75%;
+        padding: 2px;
+        margin: 2px;
+        font-size: 20px;
+    }
+    .contenedor table{
+        margin-top: 8%;
+        color: rgb(255, 255, 255);
+        /* background-color: rgba(255, 255, 255, 0.5) */
+    }
+}
+
+.btn-primary h1{
+    margin-top: 0%;;
+}
+
+.btn{
+    margin: 1%;
+}
+
+div .divMostrarLista{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.numero-center{
+    text-align: center;
+}
+
+.contenedor{
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(255, 255, 255, 0.5) */
+}
+
